@@ -1,0 +1,55 @@
+{
+  "name": "[应用名称]",
+  "appid": "__UNI__DEMO001",
+  "description": "[应用说明]",
+  "versionName": "0.1.0",
+  "versionCode": "100",
+  "transformPx": false,
+  "vueVersion": "3",
+  "app-plus": {
+    "usingComponents": true,
+    "compilerVersion": 3,
+    "splashscreen": {
+      "alwaysShowBeforeRender": true,
+      "waiting": false,
+      "autoclose": true,
+      "delay": 0
+    },
+    "modules": {},
+    "statusbar": {
+      "immersed": true,
+      "style": "dark",
+      "background": "#dcefff"
+    },
+    "safearea": {
+      "background": "#ffffff",
+      "bottom": {
+        "offset": "auto"
+      }
+    },
+    "distribute": {
+      "android": {
+        "packagename": "org.example.campusdemo",
+        "minSdkVersion": 23,
+        "targetSdkVersion": 35,
+        "permissions": [
+          "<uses-permission android:name=\"android.permission.INTERNET\"/>",
+          "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\"/>"
+        ]
+      },
+      "ios": {
+        "dSYMs": false
+      }
+    }
+  },
+  "h5": {
+    "title": "[应用名称]",
+    "router": {
+      "mode": "hash",
+      "base": "/"
+    }
+  },
+  "uniStatistics": {
+    "enable": false
+  }
+}

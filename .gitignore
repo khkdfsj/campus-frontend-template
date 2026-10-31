@@ -1,0 +1,15 @@
+node_modules/
+dist/
+unpackage/
+.hbuilderx/
+artifacts/
+.env
+.env.*
+*.log
+*.apk
+*.wgt
+*.keystore
+*.jks
+*.pem
+*.key
+.DS_Store
